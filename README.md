@@ -17,6 +17,6 @@ Spotify : Used an Api to exctract data more specific data for the matching songs
 
 ## Data Extraction 
 
-Using Python and libraries such as Pandas , Requests , Openpyxl i extracted data from the websites api and saved them in an excel file for further use. Due to limitations of the Api i could only get organised data in an automated fashion in a limited number so i opted to gather the songs that were specifically included in the sites most popular chord progressions with a total of 1450 songs.
+Using Python and libraries such as Pandas , Requests , Openpyxl i extracted data from the websites api and saved them in an excel file for further use. Due to limitations of the Api i could only get organised data in an automated fashion in a limited number so i opted to gather the songs that were specifically included in the sites most popular chord progressions with a total of 1450 songs. You can find the code here [Click Here](https://github.com/Kobu47/Song-Chord-Progression-Trends-Analysis/blob/main/HooktheoryApi.py)
 
 ## Data Cleaning 
