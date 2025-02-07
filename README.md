@@ -23,7 +23,7 @@ Spotify was a similar process the only difference being i needed to extract the 
 
 ## Data Cleaning 
 
-After extracting the data into an excel file i looked for duplicates and missing values. Here i filtered the genres by keeping only the most popular genre of every artist otherwise there would be too much clutter.Also i manipulated the dates to only contain the release year of the song. You can find the Excel file here [Click Here]()
+After extracting the data into an excel file i looked for duplicates and missing values. Here i filtered the genres by keeping only the most popular genre of every artist otherwise there would be too much clutter.Also i manipulated the dates to only contain the release year of the song. You can find the Excel file here [Click Here](https://github.com/Kobu47/Song-Chord-Progression-Trends-Analysis/blob/main/Song_data.xlsx)
 
 ## Data Analysis and Visualisation
 
