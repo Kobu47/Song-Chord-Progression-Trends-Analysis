@@ -6,8 +6,8 @@ A lot of popular songs in this day and age sound the same. Why is that? A big pa
 
 ## Data Sources
 
-Hooktheory : Used an Api to extract the chord progressions: https://www.hooktheory.com/
-Spotify : Used an Api to exctract data more specific data for the matching songs : https://open.spotify.com/
+Hooktheory : Used an Api to extract the chord progressions: [link](https://www.hooktheory.com/)
+Spotify : Used an Api to exctract data more specific data for the matching songs : [link](https://open.spotify.com/)
 
 ## Tools
 
@@ -17,17 +17,17 @@ Spotify : Used an Api to exctract data more specific data for the matching songs
 
 ## Data Extraction 
 
-Using Python and libraries such as Pandas , Requests , Openpyxl i extracted data from the websites api and saved them in an excel file for further use. Due to limitations of the Api i could only get organised data in an automated fashion in a limited number so i opted to gather the songs that were specifically included in the sites most popular chord progressions with a total of 1450 songs. You can find the code here [Click Here](https://github.com/Kobu47/Song-Chord-Progression-Trends-Analysis/blob/main/HooktheoryApi.py)
+Using Python and libraries such as Pandas , Requests , Openpyxl i extracted data from the websites api and saved them in an excel file for further use. Due to limitations of the Api i could only get organised data in an automated fashion in a limited number so i opted to gather the songs that were specifically included in the sites most popular chord progressions with a total of 1450 songs. You can find the code [here](https://github.com/Kobu47/Song-Chord-Progression-Trends-Analysis/blob/main/HooktheoryApi.py)
 
-Spotify was a similar process the only difference being i needed to extract the specific data based on the 1450 songs i had. Here i extracted the Genre, Release date and popularity number of the songs which is a number spotify uses to rank songs by their popularity.You can find the code here [Click Here](https://github.com/Kobu47/Song-Chord-Progression-Trends-Analysis/blob/main/Spotify%20Api.py)
+Spotify was a similar process the only difference being i needed to extract the specific data based on the 1450 songs i had. Here i extracted the Genre, Release date and popularity number of the songs which is a number spotify uses to rank songs by their popularity.You can find the code [here](https://github.com/Kobu47/Song-Chord-Progression-Trends-Analysis/blob/main/Spotify%20Api.py)
 
 ## Data Cleaning 
 
-After extracting the data into an excel file i looked for duplicates and missing values. Here i filtered the genres by keeping only the most popular genre of every artist otherwise there would be too much clutter.Also i manipulated the dates to only contain the release year of the song. You can find the Excel file here [Click Here](https://github.com/Kobu47/Song-Chord-Progression-Trends-Analysis/blob/main/Song_data.xlsx)
+After extracting the data into an excel file i looked for duplicates and missing values. Here i filtered the genres by keeping only the most popular genre of every artist otherwise there would be too much clutter.Also i manipulated the dates to only contain the release year of the song. You can find the Excel file [here](https://github.com/Kobu47/Song-Chord-Progression-Trends-Analysis/blob/main/Song_data.xlsx)
 
 ## Data Analysis and Visualisation
 
-The visualisation was done with Tableau Public. The dashboard can be filtered by Genre, Year as well as a specific Chord Progression of your choice as well as presenting usage percentages for each Chord Progression. You can find the dashboard here [Click Here](https://public.tableau.com/app/profile/dimitris.kompouras/viz/ChordProgressionDataAnalysisDashboard/Dashboard1).
+The visualisation was done with Tableau Public. The dashboard can be filtered by Genre, Year as well as a specific Chord Progression of your choice as well as presenting usage percentages for each Chord Progression. You can find the dashboard [here](https://public.tableau.com/app/profile/dimitris.kompouras/viz/ChordProgressionDataAnalysisDashboard/Dashboard1).
 
 
 ## Results
